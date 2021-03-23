@@ -86,4 +86,3 @@ framework (as also mentioned above). You can generally create any
 additional classes you need for implementing the required
 functionality. But you **cannot** modify the main classes (mentioned
 above) and use any libraries except for Java's standard library.
->>>>>>> origin/master
