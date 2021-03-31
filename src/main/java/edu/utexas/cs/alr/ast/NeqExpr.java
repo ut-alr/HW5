@@ -32,8 +32,8 @@ public class NeqExpr extends Expr {
     {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        EqExpr eqExpr = (EqExpr) o;
-        return (leftExpr.equals(eqExpr.leftExpr) && rightExpr.equals(eqExpr.rightExpr));
+        NeqExpr neqExpr = (NeqExpr) o;
+        return (leftExpr.equals(neqExpr.leftExpr) && rightExpr.equals(neqExpr.rightExpr));
     }
 
     @Override
